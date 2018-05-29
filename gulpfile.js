@@ -28,8 +28,9 @@ gulp.task('concat', function() {
          //   './app/javascript/02-fondamentaux.js'
            // './app/javascript/02-fondamentaux.js'
            // './app/javascript/04-add-elm-dom.js'
-          //  './app/javascript/05-nav.js'
-            './app/javascript/06-sliders.js'
+            './app/javascript/05-nav.js',
+            './app/javascript/06-sliders.js',
+            './app/javascript/07-lightbox.js',
         ])
         .pipe(concat('production.js'))
         .pipe(gulp.dest('./app/js'));
