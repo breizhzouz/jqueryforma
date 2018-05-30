@@ -872,6 +872,16 @@ body > header span {
 
 .formulaire {
   padding: 2rem; }
+  .formulaire .success,
+  .formulaire .alert {
+    display: none;
+    color: #169A9F;
+    padding: 1rem;
+    border: 1px solid #169A9F;
+    border-radius: 3px; }
+  .formulaire .alert {
+    color: #FC0937;
+    border: 1px solid #FC0937; }
   .formulaire input,
   .formulaire textarea {
     width: 100%;

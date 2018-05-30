@@ -1,6 +1,18 @@
 @if $use-form==true {
     .formulaire {
         padding: 2rem;
+        .success,
+        .alert {
+            display: none;
+            color: $color2;
+            padding: 1rem;
+            border: 1px solid $color2;
+            border-radius: 3px;
+        }
+        .alert {
+            color: $color6;
+            border: 1px solid $color6;
+        }
         input,
         textarea {
             width: 100%;
